@@ -1,7 +1,7 @@
 <?php
 session_start();
 ob_start();
-define('URL', 'http://localhost/celkelogin/');
+define('URL', 'http://localhost/sistema/');
 
 define('CONTROLER', 'home');
 define('METODO', 'index');
@@ -10,7 +10,7 @@ define('METODO', 'index');
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PASS', '');
-define('DBNAME', 'celke');
+define('DBNAME', 'db');
 
 function __autoload($Class) {
     $dirName = array(
